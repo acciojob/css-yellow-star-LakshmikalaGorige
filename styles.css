@@ -7,8 +7,8 @@
       width: 0;
       height: 0;
       position:relative;
-      border-left: 100px solid transparent;
-      border-right: 100px solid transparent;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
       border-bottom: calc( 100px * var(--sqrt-3) ) solid var(--star-color);
 }
 
@@ -17,9 +17,9 @@
       position:absolute;
       width: 0;
       height: 0;
-      left:-100px;
+      left:-50px;
       top:calc( 100px * var(--sqrt-3) / 3 );
-      border-left: 100px solid transparent;
-      border-right: 100px solid transparent;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
       border-top: calc( 100px * var(--sqrt-3)  ) solid var(--star-color);
 }
